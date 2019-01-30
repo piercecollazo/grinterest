@@ -1,6 +1,6 @@
 #app{
     display:grid;
-    grid-template-columns:100px 600px 300px;
+    grid-template-columns:100p 800px 300px;
     grid-template-rows: 100px 200px 300px;
     justify-content:center;
     
@@ -11,9 +11,6 @@
 }
 #container{
     grid-area:2/2;
-    display:grid;
-    grid-template-columns: 300px 300px 300px 300px 300px;
-    grid-template-rows: 300px 300px 300px 300px 300px;
 }
 #footer{
     grid-area:3/2;
@@ -26,6 +23,9 @@
 }
 #images{
     width: 800px;
+    display:grid;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px 300px 300px;
 }
 .pic{
     width: 200px;
