@@ -28,6 +28,9 @@
     grid-template-rows: 300px 300px 300px 300px 300px;
 }
 .pic{
-    width: 200px;
-    height: 200px;
+    width: 60%;
+    height: ;
+}
+.pic:nth-of-type(even){
+    
 }
