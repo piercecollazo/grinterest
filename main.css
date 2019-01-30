@@ -1,7 +1,7 @@
 #app{
     display:grid;
-    grid-template-columns:200px 200px 200px;
-    grid-template-rows: auto;
+    grid-template-columns:100px 600px 300px;
+    grid-template-rows: 100px 200px 300px;
     justify-content:center;
     
 }
@@ -11,6 +11,9 @@
 }
 #container{
     grid-area:2/2;
+    display:grid;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px 300px 300px;
 }
 #footer{
     grid-area:3/2;
@@ -20,4 +23,11 @@
 }
 #sidebar{
     grid-area:2/3;
+}
+#images{
+    width: 800px;
+}
+.pic{
+    width: 200px;
+    height: 200px;
 }
