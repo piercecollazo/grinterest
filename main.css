@@ -1,0 +1,23 @@
+#app{
+    display:grid;
+    grid-template-columns:200px 200px 200px;
+    grid-template-rows: auto;
+    justify-content:center;
+    
+}
+
+#header{
+    grid-area:1/2;
+}
+#container{
+    grid-area:2/2;
+}
+#footer{
+    grid-area:3/2;
+}
+#navbar{
+    grid-area:2/1;
+}
+#sidebar{
+    grid-area:2/3;
+}
