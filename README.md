@@ -17,6 +17,4 @@ Today we're going to be playing with photos. A LOT. You'll spend some time picki
 * Now try putting the landscape-orientation photos in their own row(s), and the portrait-orientation in their own row(s). If you don't have a multiple of 5 of each (again, weird if you do), there are two simple solutions to having squares and rectangles intermixed.
 * The first is to center the square images within each rectangle. Do this for the landscape row(s). If your particular grid solution already did this for you, you're done!
 * The second solution is to streeeeeetch the square images. Do this for the portrait row(s). Again, if your particular grid solution already did this for you, you're done!
-
-### Stretch Goals
-* Now for the better solution: put the squares all in their own rows or columns, and leave the rectangles in their respective rows and columns. You will very likely have to do a lot of twiddling to make this work, but it'll look real nice. Think about what portion of the container each row and column should take up.
+* Now for the better solution: put the squares all in their own rows or columns, and leave the rectangles in their respective rows and columns. You will very likely have to do a fair bit of work to make this happen, but it'll look _real nice_. Think about what portion of the container each row and column should take up. Then make it so!
