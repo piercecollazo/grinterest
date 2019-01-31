@@ -1,7 +1,7 @@
  #app{
     display:grid;
-    grid-template-columns: 150px 300px 300px 300px 150px 100px;
-    grid-template-rows: 100px 300px 300px 300px 100px 100px;
+    grid-template-columns: 150px 300px 300px 300px 400px 100px;
+    grid-template-rows: 100px 300px 300px 300px 400px 100px;
     justify-content:center;  
 }
 
@@ -34,7 +34,7 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
 }
 .pic{
-    width: 200px;
+    width: 210px;
     height: 200px;
     display: inline-grid;
     grid-template-columns: 300px 300px 300px 300px 300px;
@@ -42,9 +42,12 @@
 }
 
 #images > .land{
-    width:300px;
+    width:253px;
+    height:200px;
+    
 }
 
 #images > .port{
     height: 300px;
+    justify-self:stretch;
 }
