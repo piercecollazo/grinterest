@@ -40,3 +40,11 @@
     grid-template-columns: 300px 300px 300px 300px 300px;
     grid-template-rows: 300px 300px 300px 300px 300px;
 }
+
+#images > .land{
+    width:300px;
+}
+
+#images > .port{
+    height: 300px;
+}
