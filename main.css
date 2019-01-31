@@ -43,7 +43,8 @@
 }
 
 #images > .port{
-    height: 300px;
+    height: 320px;
+    width:253px;
     justify-self:stretch;
     grid-area:3/1/5/5;
 
