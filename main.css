@@ -30,7 +30,13 @@
     justify-self:start;
     transform:rotate(90deg);
 }
-
+#images{
+    /* width: 1fr;
+    height: 1fr; */
+    /* display:grid; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+}
 .pic{
     width: 210px;
     height: 200px;
@@ -42,14 +48,20 @@
 #images > .land{
     width:253px;
     height:200px;
+<<<<<<< HEAD
     grid-area:1/1/2/5;
     transform:rotate(90deg);
+=======
+>>>>>>> parent of 772dfb0... finished all base goals.
     
 }
 
 #images > .port{
     height: 300px;
     justify-self:stretch;
+<<<<<<< HEAD
     grid-area:3/1/5/5;
     transform:rotate(90deg)
+=======
+>>>>>>> parent of 772dfb0... finished all base goals.
 }
