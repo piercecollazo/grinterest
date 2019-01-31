@@ -26,13 +26,7 @@
     grid-area:2/6;
     justify-self:start;
 }
-#images{
-    /* width: 1fr;
-    height: 1fr; */
-    /* display:grid; */
-    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
-}
+
 .pic{
     width: 210px;
     height: 200px;
@@ -44,10 +38,12 @@
 #images > .land{
     width:253px;
     height:200px;
+    grid-area:1/1/2/5;
     
 }
 
 #images > .port{
     height: 300px;
     justify-self:stretch;
+    grid-area:3/1/5/5;
 }
